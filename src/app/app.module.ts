@@ -1,16 +1,23 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+import { MatIconModule } from '@angular/material/icon';
 
-import { AppComponent } from './app.component';
+import { QuoteComponent } from './quote.component';
+import { QuoteService } from './quote.service';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
-    AppComponent
+    QuoteComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
+    MatIconModule,
+    NoopAnimationsModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [QuoteService],
+  bootstrap: [QuoteComponent]
 })
 export class AppModule { }

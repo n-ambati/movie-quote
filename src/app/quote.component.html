@@ -1,0 +1,11 @@
+<div *ngIf="quoteObj?.quote" class="card">
+  <div class="quote">{{quoteObj?.quote}}</div>
+  <div class="caption">
+    <div class="icon" (click)="getNewQuote()">
+      <mat-icon class="icon">cached</mat-icon>
+    </div>
+    <div class="small-text">
+      {{quoteObj?.role}}, {{quoteObj?.show}}
+    </div>
+  </div>
+</div>

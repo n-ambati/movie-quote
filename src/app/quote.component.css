@@ -1,0 +1,40 @@
+.card {
+  border: 1px solid #00FF77;
+  border-radius: 1rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5%;
+  width: 80%;
+  font-family: 'Lobster Two', cursive;
+}
+
+.quote {
+  font-size: 2em;
+  color: #FFFF00;
+}
+
+.caption {
+  margin-top: 7%;
+  color: #ff44ff;
+}
+
+.icon {
+  display: inline-block;
+  float: left;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #ff99ff;
+}
+
+.small-text {
+  display: inline-block;
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  font-size:  0.9em;
+  margin-top: 1%;
+}
