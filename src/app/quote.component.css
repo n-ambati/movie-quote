@@ -38,3 +38,10 @@
   font-size:  0.9em;
   margin-top: 1%;
 }
+
+.github {
+  position: fixed;
+  top: 2%;
+  right: 4%;
+  width: 30px;
+}
